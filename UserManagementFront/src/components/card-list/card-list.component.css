@@ -1,0 +1,28 @@
+.card-list-container {
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  .card-list {
+    width: 100%;
+    overflow-y: auto;
+    scrollbar-width: thin; /* Firefox */
+    scrollbar-color: rgba(0, 0, 0, 0.2) rgba(0, 0, 0, 0.1); /* Firefox */
+  }
+  
+  .card-list::-webkit-scrollbar {
+    width: 8px; /* Width of the scrollbar */
+  }
+  
+  .card-list::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, 0.2);
+  }
+  
+  .card-list::-webkit-scrollbar-thumb:hover {
+    background-color: rgba(0, 0, 0, 0.4);
+  }
+  
+  .card-list::-webkit-scrollbar-track {
+    background: rgba(0, 0, 0, 0.1);
+  }
+  

@@ -1,0 +1,10 @@
+<mat-card class="mat-card">
+    <mat-card-title>משימות פתוחות לפי משתמשים :</mat-card-title>
+    <mat-card-content>
+      <ul>
+        <li *ngFor="let user of users">
+          <span>{{getOpenProjectsByUser(user)}}</span>
+        </li>
+      </ul>
+    </mat-card-content>
+  </mat-card>

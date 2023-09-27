@@ -1,0 +1,13 @@
+<mat-card>
+    <mat-card-header>
+      <mat-card-title>{{ cardData.subject }}</mat-card-title>
+      <mat-card-subtitle>{{ cardData.user }}</mat-card-subtitle>
+    </mat-card-header>
+    <mat-card-content>
+      <p>Deadline: {{ cardData.deadline | date }}</p>
+    </mat-card-content>
+    <mat-card-actions>
+      <mat-checkbox [checked]="cardData.isCompleted" disabled>Is Completed</mat-checkbox>
+    </mat-card-actions>
+  </mat-card>
+  

@@ -1,0 +1,134 @@
+/* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+.row-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.column-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.page-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+    gap: 20px;
+  }
+  
+  .left-side {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .form-card,
+  .items-card {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form-card h2,
+  .items-card h2 {
+    margin: 0;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .form-field {
+    margin-bottom: 20px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .right-side {
+    flex: 1;
+    overflow-y: auto;
+  }
+  
+  .scrollable-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  /* card-styles.css */
+
+/* Styling the card container */
+.mat-card {
+    width: 300px; /* Adjust the card width as needed */
+    margin: 16px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Styling the card title */
+  .mat-card-title {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  /* Styling the card content */
+  .mat-card-content {
+    font-size: 16px;
+    color: #333;
+  }
+  
+  /* Styling the card actions (e.g., buttons) */
+  .mat-card-actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+  }
+  
+  /* Styling the primary action button */
+  .mat-card-actions button.primary {
+    background-color: #007bff;
+    color: #fff;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* Styling the secondary action button */
+  .mat-card-actions button.secondary {
+    background-color: #ccc;
+    color: #333;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* Hover effect for buttons */
+  .mat-card-actions button:hover {
+    opacity: 0.8;
+  }
+  
+  
+

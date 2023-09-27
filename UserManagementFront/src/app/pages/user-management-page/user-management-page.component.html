@@ -1,0 +1,9 @@
+<div class="page-container">
+    <div class="left-side" dir="rtl">
+        <add-user-form [users]="users" [projects]="cardDataList" (newProjectEvent)="addProject($event)"></add-user-form>
+        <summary-card [users]="users" [projects]="cardDataList"></summary-card>    
+    </div>
+    <div class="right-side" dir="rtl">
+        <user-card-list [cardDataList]="cardDataList"></user-card-list>
+    </div>
+</div>

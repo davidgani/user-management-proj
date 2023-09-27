@@ -1,0 +1,8 @@
+<div class="card-list-container">
+    <div class="card-list" [style.height.px]="listHeight">
+      <app-card
+        *ngFor="let cardData of cardDataList"
+        [Project]="cardData"
+      ></app-card>
+    </div>
+  </div>
